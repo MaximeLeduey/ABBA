@@ -89,3 +89,44 @@ styles de la bio
 #biography p {
     margin: 100px 0;
 }
+
+
+
+
+/* 
+------------------------------------------------
+styles des albums
+------------------------------------------------ */
+
+#albums {
+    margin-right: 0;
+}
+
+
+.albums-slider {
+    margin: 100px 0;
+    display: flex;
+    overflow: auto;
+    gap: 30px;
+    scroll-snap-type: x mandatory;
+}
+
+.album {
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.album p {
+    font-size: 18;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.album img {
+    border-radius: 10px;
+    filter: drop-shadow(5px 4px 4px rgba(0,0,0,0.5));
+}
+
