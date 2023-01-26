@@ -212,6 +212,9 @@ styles de la nav mobile
 .nav-list {
     width: 80vw;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-item {
@@ -220,4 +223,9 @@ styles de la nav mobile
     align-items: center;
     justify-content: space-between;
     width: 20%;
+    height: 55px;
+}
+
+.nav-item p {
+    font-size: 12px;
 }
