@@ -1,0 +1,70 @@
+{
+    "albums": [
+        {
+            "name" : "ABBA",
+            "img": "album-abba.jpg",
+            "label": "image de couverture de l'album ABBA"
+        },
+        {
+            "name" : "Arrival",
+            "img": "album-arrival.jpg",
+            "label": "image de couverture de l'album arrival"
+        },
+        {
+            "name" : "Gold",
+            "img": "album-gold.jpg",
+            "label": "image de couverture de l'album gold"
+        },
+        {
+            "name" : "Live Wembley",
+            "img": "album-live-wembley-arena.jpg",
+            "label": "image de couverture de l'album live wembley arena"
+        },
+        {
+            "name" : "Super Trouper",
+            "img": "album-super-trouper.jpg"
+        },
+        {
+            "name" : "Thank You for The Music",
+            "img": "album-thank-you-for-the-music.jpg",
+            "label": "image de couverture de l'album thank you for the music"
+        },
+        {
+            "name" : "Voulez-vous",
+            "img": "album-voulez-vous.jpg",
+            "label": "image de couverture de l'album voulez-vous"
+        },
+        {
+            "name" : "Voyage",
+            "img": "album-voyage.jpg",
+            "label": "image de couverture de l'album voyage"
+        },
+        {
+            "name" : "Waterloo",
+            "img": "album-waterloo.jpg",
+            "label": "image de couverture de l'album waterloo"
+        },
+        {
+            "name" : "The visitors",
+            "img": "album-the-visitors.jpg",
+            "label": "image de couverture de l'album the visitors"
+        }
+    ],
+    "clips": [
+        {
+            "name" : "Dancing Queen",
+            "img" : "miniature-dancing-queen.jpg",
+            "label" : "image de miniature cliquable du clip dancing queen"
+        },
+        {
+            "name" : "Gimme",
+            "img" : "miniature-gimme.jpg",
+            "label" : "image de miniature cliquable du clip gimme"
+        },
+        {
+            "name" : "Mama Mia",
+            "img" : "miniature-mama-mia.jpg",
+            "label" : "image de miniature cliquable du clip mama mia"
+        }
+    ]
+}

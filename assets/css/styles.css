@@ -36,6 +36,10 @@ section {
     background-color: white;
 }
 
+li {
+    display: inline-block;
+}
+
 /* 
 ------------------------------------------------
 styles du header
@@ -130,3 +134,90 @@ styles des albums
     filter: drop-shadow(5px 4px 4px rgba(0,0,0,0.5));
 }
 
+
+
+
+
+/* 
+------------------------------------------------
+styles des clips
+------------------------------------------------ */
+
+
+.carousel {
+    margin: 100px auto;
+    max-width: 400px;
+}
+
+
+
+/* 
+------------------------------------------------
+styles du footer
+------------------------------------------------ */
+
+
+footer {
+    margin: 100px auto;
+}
+
+
+.socials {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.links a {
+    text-decoration: none;
+  
+}
+
+.links {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* 
+------------------------------------------------
+styles de la nav mobile
+------------------------------------------------ */
+
+
+#phone-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #143A83;
+    height: 80px;
+    padding-inline: 10vw;
+    filter: drop-shadow(10px -5px 20px rgba(0,0,0,0.25));
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#phone-nav * {
+    margin: 0;
+}
+
+.nav-list {
+    width: 80vw;
+    padding: 0;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}

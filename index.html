@@ -7,18 +7,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href='/assets/css/styles.css'>
     <link type="image/x-icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="assets/js/script.js"></script>
     <title>ABBA Fanpage</title>
 </head>
 <body>
     <header>
         <p id="logo">ABBA</p>
     </header>
-    <section id="home">
+    <section id="home" arial-label="accueil">
         <img src="/assets/img/album-arrival.jpg" class='large' alt="photo de couverture de l'album arrival" aria-label="photo de couverture de l'album arrival">
         <p>Voir la discographie</p>
         <img src="assets/icons/arrow-down.svg">
     </section>
-    <section id="biography">
+    <section id="biography" aria-label="biographie">
         <div class="heading-2">
             <h2>Biographie</h2>
             <div></div>
@@ -28,29 +30,57 @@
             Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum.
         </p>
     </section>
-    <section id="albums">
+    <section id="albums" arial-label='albums'>
         <div class="heading-2">
             <h2>Albums</h2>
             <div></div>
         </div>
-        <div class="albums-slider">
-            <div class="album">
-                <img class='album-image' src="/assets/img/album-arrival.jpg">
-                <p class="album-name">Nom de l'album</p>
-            </div>
-            <div class="album">
-                <img class='album-image' src="/assets/img/album-arrival.jpg">
-                <p class="album-name">Nom de l'album</p>
-            </div>
-            <div class="album">
-                <img class='album-image' src="/assets/img/album-arrival.jpg">
-                <p class="album-name">Nom de l'album</p>
-            </div>
-            <div class="album">
-                <img class='album-image' src="/assets/img/album-arrival.jpg">
-                <p class="album-name">Nom de l'album</p>
-            </div>
+        <div class="albums-slider" aria-label="liste des albums à défiler">
+            <!-- boucle des albums  -->
         </div>
     </section>
+    <section id="clips" arial-label='clips'>
+        <div class="heading-2">
+            <h2>Clips</h2>
+            <div></div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" arial-label="caroussel de clips">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <!-- boucle de clips -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <footer arial-label="reseaux sociaux et autres liens">
+        <div class="socials">
+            <img src="/assets/icons/facebook.svg">
+            <img src="/assets/icons/instagram.svg">
+            <img src="/assets/icons/twitter.svg">
+        </div>
+        <ul class="links">
+            <li><a>Mentions légales</a></li>
+            <li><a>Accessibilité numérique</a></li>
+        </ul>
+    </footer>
+    <nav id="phone-nav" aria-label="menu de navigation">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <img src="assets/icons/home.svg">
+                <p>Accueil</p>
+            </li> 
+        </ul>
+    </nav>
 </body>
 </html>
